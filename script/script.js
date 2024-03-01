@@ -1,6 +1,6 @@
 var textInput = document.querySelector("#input-texto");
 var outInput = document.querySelector("#output");
-var textoResultado = ""; // Variável para armazenar o resultado criptografado/descriptografado
+var textoResultado = "";
 
 function transformarTexto(operacao) {
   var texto = textInput.value;

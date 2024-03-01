@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('../style/responsive.css');
+
 
 :root {
     --corprincipal: white;
@@ -7,16 +9,16 @@
 }
 
 body {
-    background-image: url("./img/backgroudimage.png"); /* Caminho para sua imagem de fundo */
+    background-image: url("../img/backgroudimage.png"); 
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: var(--corsegundaria); /* Cor de fallback */
+    background-color: var(--corsegundaria); 
     margin: 0;
     padding: 0;
     font-family: 'Madimi One', sans-serif;
   }
-  /* Estilos adicionais para o conteúdo da página */
+
   .content {
     padding: 20px;
     color: white;
@@ -29,7 +31,7 @@ body {
 }
 
 .cabecalho h1 {
-    margin-right: 25px;
+    margin-right: 35px;
     color: var(--cortitulo);
 }
 
@@ -66,13 +68,13 @@ body {
 }
 
 #output {
-    position: relative; /* Define a posição como relativa */
+    position: relative; 
     width: 350px;
     height: 400px;
     margin-right: 3%;
     padding: 10px;
     box-sizing: border-box;
-    background-color: rgba(255, 255, 255, 0.8); /* Cor de fundo da caixa com transparência */
+    background-color: rgba(255, 255, 255, 0.8); 
     border: 3px solid var(--cortitulo);
     border-radius: 20px;
   }
