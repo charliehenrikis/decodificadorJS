@@ -1,9 +1,9 @@
-var textInput = document.querySelector("#input-texto");
-var outInput = document.querySelector("#output");
-var textoResultado = "";
+let textInput = document.querySelector("#input-texto");
+let outInput = document.querySelector("#output");
+let textoResultado = "";
 
 function transformarTexto(operacao) {
-  var texto = textInput.value;
+  let texto = textInput.value;
   if (operacao === "criptografar") {
     textoResultado = texto
       .replace(/e/g, "enter")
@@ -28,7 +28,7 @@ function transformarTexto(operacao) {
 }
 
 function copiar() {
-  var textareaCopiar = document.createElement("textarea");
+  let textareaCopiar = document.createElement("textarea");
   textareaCopiar.value = textoResultado;
   document.body.appendChild(textareaCopiar);
   textareaCopiar.select();
